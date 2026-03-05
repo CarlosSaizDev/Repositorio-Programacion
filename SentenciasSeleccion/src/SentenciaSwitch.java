@@ -135,21 +135,21 @@ public class SentenciaSwitch {
         switch (opcion) {
             case 1 -> {
                 System.out.println("vas a sumar");
-                 resultado = op1+op2;
+                resultado = op1 + op2;
             }
 
             case 2 -> {
                 System.out.println("vas a restar");
-                resultado = op1-op2;
+                resultado = op1 - op2;
             }
 
             case 3 -> {
                 System.out.println("vas a multi");
-                resultado = op1*op2;
+                resultado = op1 * op2;
             }
             case 4 -> {
                 System.out.println("vas a dividir");
-                resultado = (double)op1/op2;
+                resultado = (double) op1 / op2;
             }
             case 5 -> {
                 System.out.println("vas a modulo");
@@ -161,10 +161,9 @@ public class SentenciaSwitch {
             }
 
         }
-        System.out.printf("el resultado de la operacion es %.1f%n",resultado);
+        System.out.printf("el resultado de la operacion es %.1f%n", resultado);
 
     }
-
 
 
 }
