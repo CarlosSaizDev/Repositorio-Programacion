@@ -42,5 +42,94 @@ public class EjerciciosIf {
     }
 
 
-}
+
+     public void clasificadorVulnerabilidades() {
+         System.out.println("Introduzca un codigo por favor ");
+         String codigo = scanner.next().toUpperCase();
+         switch (codigo) {
+             case "A1", "A2" -> System.out.println("PRIORIDAD CRITICA");
+             case "B1", "B2" -> System.out.println("PRIORIDAD ALTA");
+             case "C1" -> System.out.println("PRIORIDAD MEDIA");
+
+         default -> System.out.println("PRIORIDADD BAJA");
+         }
+     }
+
+
+
+
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
