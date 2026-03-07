@@ -40,7 +40,7 @@ public class SentenciaFor {
 
 
     }
-
+    int[] numero = {1,2,3,4,5};
 
 public void dibujarCuadrado(){
     for (int i = 0; i <6 ; i++) {
