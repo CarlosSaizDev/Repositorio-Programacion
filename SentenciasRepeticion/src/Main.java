@@ -6,6 +6,10 @@ public class Main {
         //operaciones.todasLasTablas();
         operaciones.dibujarCuadrado();
 
+        SentenciaWhile sentenciaWhile = new SentenciaWhile();
+        sentenciaWhile.ejerciciosWhile();
+
+
 
 
 
